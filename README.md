@@ -15,7 +15,7 @@
 参照：[http://blog.csdn.net/waterbinbin/article/details/52238519][1]，其中配置项目路径时，不需要新建一个空项目，直接打开vs2013\_project/stab/stab.sln项目，然后对该项目的属性进行配置。
 #### 可能出现的问题
 1.在使用比vs2013版本高的vs导入项目时，会出现无法加载平台中的解决方案，没有安装v120的工具集等问题，这时需要调整vs的平台工具集。第一种方法是找到导航栏中的生成—-\>重新生成解决方案；第二种方法是如图，
-![][2]
+![image]()(https://github.com/flyingtango/real-time-video-stabilization/screenshot/1.png)
 打开项目属性，调整工具集的版本，可高可低，选择自己vs已经安装的版本即可。
 
 2.若出现找不到core/core.h等情况，请检查项目属性中的路径是否包含完整。
@@ -23,4 +23,3 @@
 4.项目的主要文件为videostab.cpp，所包含处理过程，如匹配等均为单独文件，并include在主函数文件中。
 
 [1]:	http://blog.csdn.net/waterbinbin/article/details/52238519
-[2]:	https://github.com/flyingtango/real-time-video-stabilization/screenshot/1.png "image"
