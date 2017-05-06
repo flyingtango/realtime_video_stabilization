@@ -18,7 +18,9 @@
 打开项目属性，调整工具集的版本，可高可低，选择自己vs已经安装的版本即可。
 
 2.若出现找不到core/core.h等情况，请检查项目属性中的路径是否包含完整。
+
 3.若需使用opencl或cuda加速程序，需用cmake编译opencv，程序默认使用cpu，要启用gpu可以在define.h文件中修改后编译运行。并且若您需要调教显示画面的大小，也可以通过define.h中的#define去选择。
+
 4.项目的主要文件为videostab.cpp，所包含处理过程，如匹配等均为单独文件，并include在主函数文件中。
 
 [1]:	http://blog.csdn.net/waterbinbin/article/details/52238519
