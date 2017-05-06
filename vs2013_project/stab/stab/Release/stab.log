@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/5/6 16:42:49。
+     1>项目“C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\stab\stab.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\videostab.cpp
+         videostab.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Release\stab.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2412.lib opencv_contrib2412.lib opencv_core2412.lib opencv_features2d2412.lib opencv_flann2412.lib opencv_gpu2412.lib opencv_highgui2412.lib opencv_imgproc2412.lib opencv_legacy2412.lib opencv_ml2412.lib opencv_nonfree2412.lib opencv_objdetect2412.lib opencv_ocl2412.lib opencv_photo2412.lib opencv_stitching2412.lib opencv_superres2412.lib opencv_ts2412.lib opencv_video2412.lib opencv_videostab2412.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Release\stab.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Release\stab.lib" /MACHINE:X86 /SAFESEH Release\deblurring.obj
+         Release\fast_marching.obj
+         Release\frame_source.obj
+         Release\global_motion.obj
+         Release\inpainting.obj
+         Release\log.obj
+         Release\motion_stabilizing.obj
+         Release\optical_flow.obj
+         Release\outlier_rejection.obj
+         Release\stabilizer.obj
+         Release\videostab.obj
+         Release\wobble_suppression.obj
+         正在生成代码
+         已完成代码的生成
+         stab.vcxproj -> C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Release\stab.exe
+     1>已完成生成项目“C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\stab\stab.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.17

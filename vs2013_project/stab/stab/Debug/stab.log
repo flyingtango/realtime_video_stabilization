@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/5/6 11:31:54。
+     1>项目“C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\stab\stab.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\deblurring.cpp ..\..\fast_marching.cpp ..\..\frame_source.cpp ..\..\global_motion.cpp ..\..\inpainting.cpp ..\..\log.cpp ..\..\motion_stabilizing.cpp ..\..\optical_flow.cpp ..\..\outlier_rejection.cpp ..\..\stabilizer.cpp ..\..\videostab.cpp ..\..\wobble_suppression.cpp
+         wobble_suppression.cpp
+         videostab.cpp
+         stabilizer.cpp
+     1>c:\users\44187\desktop\video-stabilization-with-gpu-master1\new\stabilizer.cpp(229): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
+         outlier_rejection.cpp
+         optical_flow.cpp
+         motion_stabilizing.cpp
+         log.cpp
+         inpainting.cpp
+         global_motion.cpp
+         frame_source.cpp
+         fast_marching.cpp
+         deblurring.cpp
+         正在生成代码...
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Debug\stab.exe" /INCREMENTAL /NOLOGO opencv_calib3d2412d.lib opencv_contrib2412d.lib opencv_core2412d.lib opencv_features2d2412d.lib opencv_flann2412d.lib opencv_gpu2412d.lib opencv_highgui2412d.lib opencv_imgproc2412d.lib opencv_legacy2412d.lib opencv_ml2412d.lib opencv_nonfree2412d.lib opencv_objdetect2412d.lib opencv_ocl2412d.lib opencv_photo2412d.lib opencv_stitching2412d.lib opencv_superres2412d.lib opencv_ts2412d.lib opencv_video2412d.lib opencv_videostab2412d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Debug\stab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Debug\stab.lib" /MACHINE:X86 Debug\deblurring.obj
+         Debug\fast_marching.obj
+         Debug\frame_source.obj
+         Debug\global_motion.obj
+         Debug\inpainting.obj
+         Debug\log.obj
+         Debug\motion_stabilizing.obj
+         Debug\optical_flow.obj
+         Debug\outlier_rejection.obj
+         Debug\stabilizer.obj
+         Debug\videostab.obj
+         Debug\wobble_suppression.obj
+         stab.vcxproj -> C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\Debug\stab.exe
+     1>已完成生成项目“C:\Users\44187\Desktop\Video-Stabilization-with-GPU-master1\New\stab\stab\stab.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.85
